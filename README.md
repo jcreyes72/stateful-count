@@ -1,9 +1,8 @@
 # stateful-count 🔢
-This app displays an increment and decrement button, plus a value that gets updated accordingly. It stores the state of the count in our database so that it never resets. I thought that this project would be a great introduction into learning about ReactJS as well as Full Stack Development
+This application features increment and decrement buttons, along with a value that is updated accordingly. The state of the count is stored in our database to ensure that it is never reset. I thought that this project would serve as a useful introduction to both ReactJS and full stack development.
 
 # deployment 👨‍💻
 I used Render.com to deploy this site, you can check it out here: https://statefulcount-front.onrender.com/ (Constraints below)
 
 # constraints 🚫
-I'm having issues getting this site to work on mobile, as well as with Safari. So Chrome and Firefox are the recommended browsers until I can get 
-those bugs fixed
+I recommend using Chrome or Firefox to access this site, as there are currently issues with mobile compatibility and Safari. I am working to resolve these issues as soon as possible.
