@@ -20,7 +20,7 @@ export default class Counter extends React.Component {
   };
   
   getCurrentState = () => {
-    axios.get('/update')  
+    axios.get('/api')  
       .then(response => {
         const data = response.data;
         this.setState({ everyState: data, error: false })
@@ -55,7 +55,7 @@ submit = (plusOrMinus) => {
   }
 
   axios({
-    url: '/update',  
+    url: 'api/update',  
     method: 'PUT',  // Use a PUT request to update the count
     data: payload
   })

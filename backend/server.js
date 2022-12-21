@@ -8,13 +8,6 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 const routes = require('./routes/api')
-const cors = require('cors')
-
-const corsOptions ={
-    origin:'*', 
-    credentials:true,            //access-control-allow-credentials:true
-    optionSuccessStatus:200,
- }
 
 // Mongoose connection
 mongoose.set('strictQuery', false);
@@ -32,9 +25,8 @@ app.use(express.urlencoded({ extended: false }));
 
 
 // HTTP request logger
-app.use(cors());
 app.use(morgan('tiny'));
-app.use('/', routes)
+app.use('/api', routes)
 
 
 if (process.env.NODE_ENV === 'production'){
