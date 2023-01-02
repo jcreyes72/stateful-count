@@ -5,4 +5,4 @@ This application features increment and decrement buttons, along with a value th
 I used Render.com to deploy this site, you can check it out here: https://statefulcount-front.onrender.com/ (Constraints below)
 
 # constraints 🚫
-I recommend using Chrome or Firefox to access this site, as there are currently issues with mobile compatibility and Safari. I am working to resolve these issues as soon as possible.
+The website I used to deploy this site can be a little unreliable at times. The counter may take a second or two to load, and might require a couple of refreshes. I am currently working to fix these issues.
